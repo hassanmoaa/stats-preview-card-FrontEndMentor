@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
+- Solution URL: (https://github.com/hassanmoaa/stats-preview-card-FrontEndMentor.git)
 - Live Site URL: ()
 
 ### Built with
@@ -45,9 +45,38 @@ Users should be able to:
 
 I learned how to use media queries effectively in order to make a website responsive. This allowed me to create the mobile design correctly.
 
-Also i practiced my responsiveness problem solving skills by making this fully responsive alone.
+I learned how to use mix-blend-mode in css in order to do the color-overlay.
 
 ```
+.blend {
+    width: 50%;
+    background-color: var(--accent);
+}
+
+.blend-1 {
+    display: none;
+}
+
+.img-1 {
+    display: block;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+}
+
+.img-2 {
+    display: block;
+    width: 100%;
+
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+
+    display: none;
+}
 
 ```
 
@@ -56,6 +85,8 @@ Also i practiced my responsiveness problem solving skills by making this fully r
 - I want to learn more about css by creating multi-page websites
 
 ### Useful resources
+
+- ![FEM-Discord-Server] - I asked for help in the help forum and got a lot of useful advice from members of the discord server especially the admins and mods are so cooperative.
 
 - (https://www.w3schools.com) - W3S helped me getting some help!
 
